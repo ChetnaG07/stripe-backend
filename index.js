@@ -16,7 +16,7 @@ app.post("/create-checkout-session", async (req, res) => {
   const line_items = req.body.cartItems.map((item) => {
     return {
       price_data: {
-        currency: "inr",
+        currency: "usd",
         product_data: {
           name: item.title,
           images: [item.thumbnail],
