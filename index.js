@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 app.use(
 	cors({
-		origin: "*",
+		origin: "https://shopping-app-bzbo.onrender.com",
 		credentials: true,
 	})
 );
